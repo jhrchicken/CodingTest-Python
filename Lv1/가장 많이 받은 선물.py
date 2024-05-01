@@ -35,5 +35,5 @@ def solution(friends, gifts):
     for i in range (lenFriends) :
         if max < nextMonth[friends[i]] :
             max = nextMonth[friends[i]]
-    
+
     return max
