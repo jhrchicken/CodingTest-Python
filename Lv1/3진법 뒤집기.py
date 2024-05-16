@@ -15,7 +15,5 @@ def solution(n):
         answer += (base3 % 10) * digit
         base3 = base3 // 10
         i += 1
-
-    
     
     return answer
