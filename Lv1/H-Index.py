@@ -3,12 +3,12 @@ def solution(citations):
     maxCitations = max(citations)
     lenCitations = len(citations)
     
-    for i in range (maxCitations + 1) :
+    for h in range (maxCitations + 1) :
         cnt = 0
         for j in range (lenCitations) :
-            if i <= citations[j] :
+            if h <= citations[j] :
                 cnt += 1
-        if cnt >= i :
-            answer = i
+        if cnt >= h :
+            answer = h
     
     return answer
